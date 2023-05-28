@@ -12,3 +12,5 @@ const obj = {
 
 console.log(obj[key])
 console.log(obj[course]);
+
+/* objects do not support indexing */
