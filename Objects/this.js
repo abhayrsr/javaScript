@@ -4,6 +4,7 @@ const user1 ={
     greet: function(){
         console.log(this.age);
     }
+    /*this is also called as implicit bindind. */
 }
 const user2 ={
     name: "Tarun",
