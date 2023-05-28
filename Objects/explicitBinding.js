@@ -17,4 +17,8 @@ userName = function(degree, year){
     console.log(this.name, degree, year);
 }
 /* explicit binding */
-userName.apply(user1, ["Btech", 2023]);
+userName.call(user1, "B.tech", 2022);
+userName.apply(user2, ["Btech", 2023]);
+
+const result = userName.bind(user3);
+result("M.tech",2021);
